@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 /* Basic */
 @-ms-viewport {
   width: device-width; }
@@ -89,24 +84,24 @@ input, select, textarea {
 
 /* Typography */
 html {
-  font-size: 13pt; }
+  font-size: 17pt; }
   @media screen and (max-width: 1680px) {
     html {
-      font-size: 11pt; } }
+      font-size: 17pt; } }
   @media screen and (max-width: 980px) {
     html {
-      font-size: 12pt; } }
+      font-size: 17pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 11pt; } }
+      font-size: 17pt; } }
 
 body {
   background-color: #ffffff;
-  color: #444444; }
+  color: #111111; }
 
 body, input, select, textarea {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1rem;
   line-height: 1.65; }
 
@@ -120,7 +115,7 @@ a {
     text-decoration: none; }
 
 strong, b {
-  font-weight: 600; }
+  font-weight: 450; }
 
 em, i {
   font-style: italic; }
@@ -137,7 +132,7 @@ header.special {
     margin-right: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 680;
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
@@ -228,7 +223,7 @@ strong, b {
   color: #555555; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #555555; }
+  color: #111111; }
 
 blockquote {
   border-left-color: rgba(0, 0, 0, 0.25); }
@@ -267,7 +262,7 @@ button,
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 650;
   height: 3.25rem;
   line-height: 3.25rem;
   padding: 0 1.75rem;
@@ -447,7 +442,7 @@ input[type="radio"] {
     cursor: pointer;
     display: inline-block;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 450;
     padding-left: 2.825rem;
     padding-right: 0.875rem;
     position: relative; }
@@ -1798,7 +1793,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 8);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -2010,7 +2005,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #008000 84%);
+    background: linear-gradient(120deg, #183558 0%, #581845 82%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2059,7 +2054,7 @@ ul.icons {
 /* CTA */
 #cta {
   background-color: #ce1b28;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 8);
   background-attachment: fixed;
   background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/pi6.jpg);
   background-position: bottom;
@@ -2075,7 +2070,7 @@ ul.icons {
   #cta strong, #cta b {
     color: #ffffff; }
   #cta h1, #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
-    color: #ffffff; }
+    color: #111111; }
   #cta blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #cta code {
@@ -2207,7 +2202,7 @@ ul.icons {
 /* Footer */
 #footer {
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 8);
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
@@ -2340,7 +2335,7 @@ ul.icons {
     #footer .testimonials .content .credit strong {
       color: #ce1b28; }
   #footer a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 8);
     text-decoration: none; }
     #footer a:hover {
       color: #ce1b28; }
@@ -2392,7 +2387,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/pi8.jpg);
+    background-image: url(../../images/t2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2403,7 +2398,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.25; }
+    opacity: 0.45; }
 
 #header {
   -moz-align-items: center;
